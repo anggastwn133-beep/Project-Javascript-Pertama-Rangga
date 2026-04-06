@@ -22,6 +22,8 @@ tombol.addEventListener("click", function () {
 kembali.addEventListener("click", function () {
   judul.innerText = "Halo, Selamat Datang!";
   judul.className = "";
+
+  inputNama.value = "";
 });
 
 tombolSapa.addEventListener("click", function () {
